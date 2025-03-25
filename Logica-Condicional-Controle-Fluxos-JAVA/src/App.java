@@ -21,6 +21,21 @@ public class App {
         System.out.println("(i1 > i2) || (f2 < f1) " + ((i1 > i2) || (f2 < f1)));
         System.out.println("((i1 + i2) < (f2 - f1) && true " + (((i1 + i2) < (f2 - f1) && true)));
 
+        double salarioMensal = 1830.0;
+        double mediaSalario = 10000.0;
+
+        int quantidadeDependentes = 4;
+        int mediaDependentes = 2;
+
+        System.out.println("salarioMensal < mediaSalario) && (quantidadeDependentes >= mediaDependentes");
+
+        boolean salarioBaixo = salarioMensal < mediaSalario;
+        boolean muitosDependentes = quantidadeDependentes >= mediaDependentes;
+
+        boolean recebeAuxilio = salarioBaixo && muitosDependentes;
+        
+        System.out.println("Recebe auxílio? " + recebeAuxilio);
+
 
     }
 }
