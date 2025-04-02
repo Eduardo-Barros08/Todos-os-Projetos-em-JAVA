@@ -1,4 +1,4 @@
-public class App {
+public class logicaCondicional {
     public static void main(String[] args) throws Exception {
         int i1 = 5;
         int i2 = 10;
