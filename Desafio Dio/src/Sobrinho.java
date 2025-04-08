@@ -1,6 +1,6 @@
 import java.util.Scanner; 
     
-public class App {
+public class Sobrinho {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
         int entrada;

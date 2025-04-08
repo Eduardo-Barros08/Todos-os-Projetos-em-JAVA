@@ -5,7 +5,6 @@ public class Download {
         Scanner leitor = new Scanner(System.in);
         int tamanho = leitor.nextInt();
         
-        // TODO: Crie a condição necessária para que, de acordo com o tamanho, seja printado no console barras representando o download
         // Exemplo: se o tamanho for 5, deve ser impresso "|||||"
         // Exemplo: se o tamanho for 10, deve ser impresso "||||||||||"
         
@@ -16,5 +15,6 @@ public class Download {
         else if(tamanho > 10){
             System.out.println("Número inválido!");
         }
+        leitor.close();
     }
 }
