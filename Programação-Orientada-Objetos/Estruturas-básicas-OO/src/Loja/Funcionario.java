@@ -1,0 +1,5 @@
+package Loja;
+
+class Funcionario {
+    
+}
